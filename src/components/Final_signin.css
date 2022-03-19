@@ -1,0 +1,133 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+img{
+    margin-bottom: 16px;
+    width: 54px;
+    height: 59px; 
+}
+h1{
+    margin-bottom: 40px;
+}
+.container{
+    /* background: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index:-1;
+}
+.box{
+    min-width: 700px;
+    min-height: 700px;
+    padding: 30px;
+    margin-left: 100px;
+    margin-top: 210px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+.title{
+    color: yellow;
+    text-align: center;
+    margin: 80px 0px 40px 0px;
+}
+.name,.password,.email{
+    margin: 20px;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 22px;
+}
+.password{
+    margin-bottom: 40px;
+}
+.button{
+    align-items: center;
+}
+.logo5 {
+  
+    display: flex;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 249px;
+    width: 266px;
+    margin-top: -77px;
+    }
+    .class{
+        text-transform: uppercase;
+        font-size: 20px;
+        border-radius: 9px;
+        color: white;
+        padding: 10px 30px;
+        background: black;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        display: inline-block;
+        right: 0;
+        transition: all 0.1s;
+        margin-top: 10px;
+        margin-right: 20px;
+        
+      }
+.input{
+    height: 32px;
+    font-size: 20px;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border-radius: 3px;
+}
+.error{
+    color: black;
+}
+.submit{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 130px;
+    background: black;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s;
+    margin-top: 42px;
+}
+button:active{
+    transform: translateY(2px);
+}
+.vedio{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index:-1;
+}
+.overlay{
+    width:100%;
+    height:1079px;
+    position: fixed;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    background-color: rgba(151, 135, 135, 0.582);
+}
+.form-success{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    min-width: 370px;
+    color: black;
+}
+.form1{
+    /* background-color: rgba(100, 100, 100, 0.2); */
+    padding: 40px;
+    /* border: 2px solid black; */
+    box-shadow: inset 0px 0px 25px 0px #ffffff;
+
+}
